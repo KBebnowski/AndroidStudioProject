@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#082C50">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#082C50">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+      >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/a0"
+            android:onClick="strona_startowa"/>
+
+       <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="150dp"
+            android:src="@android:drawable/ic_menu_search" />
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:background="#A21C3D"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        >
+
+
+        <ImageView
+            android:id="@+id/imageViewa1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/a1"
+            android:onClick="menu_glowne"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginLeft="240dp"
+            app:srcCompat="@android:drawable/ic_menu_sort_by_size"
+            android:onClick="male_menu"/>
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="#6d1229">
+
+        <TextView
+            android:id="@+id/LarRambla"
+            android:layout_marginLeft="20dp"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:text="LaRambla"
+            android:textColor="#E4AA2E"
+            android:textSize="25sp"
+            android:textStyle="italic"
+            android:onClick="strona_startowa"
+            android:textAlignment="center"
+            />
+
+        <TextView
+            android:id="@+id/GoogleBtn"
+            android:layout_marginLeft="20dp"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:text="Sklep"
+            android:textColor="#FFFFFF"
+            android:textSize="25sp"
+            android:textStyle="italic"
+            android:textAlignment="center"
+            android:onClick="przeniesienie"
+            />
+
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:text="Barcelona"
+            android:textColor="#FFFFFF"
+            android:textSize="25sp"
+            android:textStyle="italic"
+            android:textAlignment="center"
+            />
+
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:text="Historia"
+            android:textColor="#FFFFFF"
+            android:textSize="25sp"
+            android:textStyle="italic"
+            android:textAlignment="center"
+            />
+
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:text="Sezon"
+            android:textColor="#FFFFFF"
+            android:textSize="25sp"
+            android:textStyle="italic"
+            android:textAlignment="center"
+            />
+
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:text="Cules"
+            android:textColor="#FFFFFF"
+            android:textSize="25sp"
+            android:textStyle="italic"
+            android:textAlignment="center"
+            />
+
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:text="Serwis"
+            android:textColor="#FFFFFF"
+            android:textSize="25sp"
+            android:textStyle="italic"
+            android:textAlignment="center"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#042340"
+
+
+    >
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:orientation="vertical"
+          android:layout_marginLeft="15dp"
+          android:layout_marginRight="15dp"
+          android:background="#042340"
+
+          >
+
+          <ImageView
+              android:layout_marginTop="-50dp"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              app:srcCompat="@drawable/b111"
+              android:layout_marginBottom="-125dp"/>
+
+          <ImageView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              app:srcCompat="@drawable/b222"
+              android:layout_marginBottom="-319dp"/>
+
+          <ImageView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              app:srcCompat="@drawable/b333"
+              android:layout_marginBottom="-439dp"/>
+
+          <ImageView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginBottom="-458dp"
+              app:srcCompat="@drawable/b444"
+              android:onClick="trzeci"/>
+
+          <ImageView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              app:srcCompat="@drawable/b555"
+              android:layout_marginBottom="-350dp"/>
+
+         <!-- <FrameLayout
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              app:layout_constraintBottom_toRightOf="parent"
+              app:layout_constraintBottom_toLeftOf="parent"
+              app:layout_constraintBottom_toTopmOf="parent"
+              app:layout_constraintBottom_toBottomOf="parent">
+
+              <VideoView
+                  android:id="@+id/video_view"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content" />
+
+          </FrameLayout>-->
+
+
+
+
+      </LinearLayout>
+
+</ScrollView>
+
+</LinearLayout>
